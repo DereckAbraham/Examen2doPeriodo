@@ -1,4 +1,4 @@
-@media screen and (max-width:720px) and (min-width:481px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     .pantalla{
         width: 100%;
         height: 100%;
@@ -7,13 +7,117 @@
         bottom: 0;
         left: 0;
         right: 0;
-    }
-
+        }
 }
 .parteOne{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:left;
-    background-color: blue;
 }
+
+.menu{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+}
+.menu  nav ul li a{
+    color: black;
+}
+
+.menu  nav ul li a{
+    justify-content: space-evenly;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    background-color: #D9D9D9;
+    border-radius: 3px;
+
+}
+  
+  nav ul li a:hover {
+    background-color: #ccc;
+}
+.perfil{
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+}
+
+.nombre{
+    width: 22.3rem;
+    height: 2.4rem;
+    font-family:'inter';
+}
+
+.name{
+    width: 22.3rem;
+    height: 2.4rem;
+    font-family: 'inter';
+}
+
+.temas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pruebaOne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pruebaTwo{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemOne{
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.itemTwo{
+    margin: 1rem;
+}
+
+.itemThree{
+    margin: 1rem;
+}
+
+.imgOne{
+    width: 100%;
+    height: 100%;
+}
+.imgTwo{
+    width: 100%;
+    height: 100%;
+}
+.imgThree{
+    width: 50%;
+    height: 50%;
+}
+

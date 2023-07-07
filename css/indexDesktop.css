@@ -1,0 +1,73 @@
+
+
+@media screen and (min-width:1023px) and (max-width:1980px) {
+    .pantalla{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.parteOne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+}
+
+.perfil{
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+}
+
+.nombre{
+    width: 22.3rem;
+    height: 2.4rem;
+    font-family:'inter';
+}
+
+.name{
+    width: 22.3rem;
+    height: 2.4rem;
+    font-family: 'inter';
+}
+
+.temas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemOne{
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.itemTwo{
+    margin: 1rem;
+}
+
+.itemThree{
+    margin: 1rem;
+}
+
+.imgOne{
+    width: 100%;
+    height: 100%;
+}
+.imgTwo{
+    width: 100%;
+    height: 100%;
+}
+.imgThree{
+    width: 100%;
+    height: 100%;
+}
